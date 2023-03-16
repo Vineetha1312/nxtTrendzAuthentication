@@ -1,0 +1,89 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.home-details {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  .home-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    display: none;
+  }
+  .shopnow-btn {
+    display: none;
+  }
+  .home-poster {
+    margin-left: 0px;
+  }
+  .heading {
+    width: 50px;
+  }
+}
+.home-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.home-poster {
+  height: 250px;
+  width: 250px;
+  margin-left: 20px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: 'Roboto';
+  width: 300px;
+}
+.description {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  width: 480px;
+}
+.shopnow-btn {
+  background-color: #0967d2;
+  height: 32px;
+  width: 138px;
+  border-style: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+.description-mobile-device {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  width: 480px;
+}
+.shopnow-btn-mobile-device {
+  background-color: #0967d2;
+  height: 25px;
+  width: 138px;
+  border-style: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .description-mobile-device {
+    display: none;
+    width: 50px;
+  }
+  .shopnow-btn-mobile-device {
+    display: none;
+  }
+}

@@ -1,0 +1,91 @@
+/* Write your CSS code here */
+@media screen and (max-width: 768px) {
+  .nav-headings {
+    display: none;
+  }
+  .logout-btn {
+    display: none;
+  }
+  .website-logo-desktop {
+    display: none;
+  }
+}
+
+.header-medium-device {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.website-logo-desktop {
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+}
+.nav-headings {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logout-btn {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 80px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.website-logo-mobile {
+  height: 30px;
+  width: 80px;
+  margin-left: 20px;
+}
+.nav-logout {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+.header-mobile-devices {
+  background-color: #e6f6ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+.nav-logos {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .header-mobile-devices {
+    display: none;
+  }
+  .website-logo-mobile {
+    display: none;
+  }
+  .nav-logout {
+    display: none;
+  }
+}
+.website-logo-details-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.list-item {
+  list-style-type: none;
+}
